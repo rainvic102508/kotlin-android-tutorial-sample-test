@@ -81,7 +81,7 @@ class LandingPageFragment : Fragment(), View.OnClickListener {
 
         when(view.id){
             R.id.tv_btn ->{
-                view.findNavController().navigate(R.id.detailPageFragment)
+                view.findNavController().navigate(R.id.action_landingPage_to_detailPageFragment)
             }
         }
     }
